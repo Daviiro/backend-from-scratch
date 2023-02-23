@@ -1,18 +1,12 @@
-//aula 1 - Instalando express, executando a api e recebendo query
+//aula 2 - trabalhando com rotas
 const express = require("express");
-
 const app = express();
 
-app.get("/", (req, res) => {
-	let obj = req.query;
-	return res.send({
-		message: `Você enviou o nome ${obj.nome} com idade de ${obj.idade}`,
-	});
-});
+const indexRoute = require("./Routes/index");
+const usersRoute = require("./Routes/users");
 
-app.post("/", (req, res) => {
-	return res.send({ message: "Método POST funcionando" });
-});
+app.use("/", indexRoute);
+app.use("/users", usersRoute);
 
 app.listen(3001);
 
