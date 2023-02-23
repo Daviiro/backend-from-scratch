@@ -1,0 +1,22 @@
+{
+  "name": "backend-from-scratch",
+  "version": "1.0.0",
+  "description": "Repositório com a finalidade de armazenar as aulas que estou fazendo relacionadas ao back-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daviiro/backend-from-scratch.git"
+  },
+  "author": "kam1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daviiro/backend-from-scratch/issues"
+  },
+  "homepage": "https://github.com/Daviiro/backend-from-scratch#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
