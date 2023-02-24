@@ -1,4 +1,4 @@
-//aula 5 - criptografar a senha
+//aula 6 - refatorar o codigo com async e await
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
