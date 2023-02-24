@@ -1,4 +1,4 @@
-//aula 6 - refatorar o codigo com async e await
+//aula 7 - autentificação com jwt
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
