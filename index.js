@@ -1,4 +1,4 @@
-//aula 4 - criando usuário no banco de dados
+//aula 5 - criptografar a senha
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
