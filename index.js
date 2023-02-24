@@ -1,4 +1,4 @@
-//aula 3 - mongoose e conexão com o bando de dados (mongodb)
+//aula 4 - criando usuário no banco de dados
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
