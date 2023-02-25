@@ -1,4 +1,4 @@
-//aula 7 - autentificação com jwt
+//aula 8 - retorno do status apropriado
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -34,3 +34,21 @@ app.use("/users", usersRoute);
 app.listen(3001);
 
 module.exports = app;
+
+/*
+    STATUS
+
+    200 - OK
+    201 - Created
+    202 - Accepted
+
+    400 - Bad Request
+    401 - Unauthorized -- não autenficado, tem caráter temporário
+    403 - Forbidden -- autorização, tem caráter permanente
+    404 - Not Found
+
+    500 - Internal Server Error
+    501 - Not implemented - A api ainda não suporta essa funcionabilidade
+    503 - Service Unavailable - a operação está indisponível no momento
+    
+*/
